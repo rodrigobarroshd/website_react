@@ -34,3 +34,10 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+
+
+
+
+#TODO Colocar Créditos de Imagens
+<!-- <a href="https://www.freepik.com/free-vector/memphis-blue-background-with-halftone-line-elements_18309234.htm#query=background%20banner&position=0&from_view=keyword">Image by starline</a> on Freepik -->
