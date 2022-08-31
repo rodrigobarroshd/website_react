@@ -1,4 +1,4 @@
-# Personal Portfolio Website in React
+# MindMaster Website in React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -10,7 +10,7 @@ Built using:
 - CSS framework: React-bootstrap
 - CSS animations library: Animate.css
 
-In the /personal-portfolio, you can run:
+In the /mindmaster, you can run:
 
 ### `npm start`
 
