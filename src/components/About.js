@@ -1,6 +1,6 @@
 import React from "react";
-import renata from "../assets/img/renata.jpg";
-
+import renata from "../assets/img/renatahd.jpg";
+import { Container, Row, Col } from "react-bootstrap";
 
 
 export const About = () => {
@@ -26,34 +26,55 @@ export const About = () => {
 
   return (
     <section className="about" id="about">
-      <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Olá, sou a Renata.
-            <br className="hidden lg:inline-block" />Lorem ipsum dolor sit amet, consectetur.
-          </h1>
-          <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
-          </p>
-          <div className="flex justify-center">
-            <a
-              href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-              Entre em Contato
-            </a>
-            <a
-              href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              Veja meu Trabalho
-            </a>
-          </div>
-        </div>
+      <Container>
+      <Row className="aligh-items-center">
+
+        {/* Coluna para Imagem */}
+        <Col xs={12} md={6} xl={6}>
         <div className="personal">
-          <img src={renata} alt="Image" />
-        </div>
-      </div>
-    </section>
+            <img src={renata} alt="Image" />
+          </div>
+          </Col>
+
+          {/* Coluna para Texto */}
+          <Col>         
+          <div className="container-items-center">
+            <div className="text-right-items-center-text-center">
+              <h1 className="title-font-text-white">
+                Olá, sou a Renata.
+                <br className="taglinehd" />Lorem ipsum dolor sit amet, consectetur.
+              </h1>
+              <p className="leading-relaxed">
+              Renata Souza Barreto é um exemplo claro de estudante que adquiriu amplas possibilidades e 
+              liberdades para escolher caminhos que pudessem seguir, sendo PROTAGONISTA da sua trajetória, 
+              aqui no Colégio Perfil. Os estudantes do Ensino Fundamental, 
+              iniciarão os estudos com o componente curricular de Pensamento Computacional, 
+              sob a tutoria da professora Renata, que também é ex aluna do Perfil.
+              </p>
+            <div className="flex justify-center">
+              <a
+                href="#contact"
+                className="button-contato">
+                Entre em Contato
+              </a>
+              <a
+                href="#projects"
+                className="button-contato">
+                Veja meu Trabalho
+              </a>
+            </div>
+          </div>
+          </div>
+        </Col>
+        </Row>
+        
+        </Container>
+
+
+        
+      </section>
+      
+      
+  
   )
 }
