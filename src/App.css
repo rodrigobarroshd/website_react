@@ -311,11 +311,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 0 0 50px 0;
   /* background: linear-gradient(80.21deg, #da7949 -5.91%, #042c74 81.58%); */
   position: relative;
-  background-color: #042c74;
+  background-color: #dd5930;
 }
 
 .personal img {
   width: 78%;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 12px 60px 0 rgba(0, 0, 0, 0.19);
 }
 
 .about {
@@ -324,6 +325,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   /* background-position: top center;
   background-size: cover;
   background-repeat: no-repeat; */
+  
 }
 .about .taglinehd {
   font-weight: 200;
@@ -335,8 +337,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 16px;
   display: inline-block;
   
+  
 }
-
+.about h1{
+  color: #042c74;
+}
 /* .about h1 {
   font-size: 35px;
   font-weight: 400;
@@ -344,9 +349,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1;
   margin-bottom: 20px;
   display: block;
+  color: blue;
 } */
 .about p {
-  color: #B8B8B8;
+  color: #d8d7d7;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -369,6 +375,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 2px 6px ;
   text-decoration: none;
   border-radius: 6px;
+  
 
 }
 .about .button-contato:hover{
@@ -564,6 +571,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.3s ease-in-out;
   text-align: center;
   z-index: 0;
+  cursor: pointer;
 }
 .project .nav.nav-pills .nav-link::before {
     content: "";
@@ -575,6 +583,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     left: 0;
     z-index: -1;
     transition: 0.3s ease-in-out;
+    cursor: pointer;
 }
 .project .nav.nav-pills .nav-link.active::before {
     width: 100% !important;
@@ -646,6 +655,101 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: 0;
   z-index: -4;
 }
+.project{
+  background-color: #042c74;
+}
+
+.project img {
+  width: 78%;
+}
+.project .container-items-left  {
+  font-weight: 200;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  font-size: 55px;
+  margin-bottom: 16px;
+  display: inline-block;
+  text-align: center;
+  
+}
+.project .container-items-left  h1{
+  font-weight: 200;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  font-size: 55px;
+  margin-bottom: 26px;
+  display: inline-block;
+  text-align: center;
+  
+}
+.container-items-left h2{
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  display: block;
+  padding: 0 10px;
+  text-align: left;
+  color: #da7949;
+}
+
+.container-items-left p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.project .button-contato {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 10px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+}
+.project .button-contato{
+  display: inline-flex;
+  color: white;
+  border: 0;
+  margin-right: 10px;
+  padding: 2px 6px ;
+  text-decoration: none;
+  border-radius: 6px;
+
+}
+.project .button-contato:hover{
+  background-color: yellow;
+  color: black;
+  transition: 1s;
+} 
+
+/* .project button svg {
+  font-size: 25px;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  line-height: 1; */
+/* .about{
+  padding: 0 0 50px 0;
+  
+  position: relative;
+  background-color: #042c74;
+}
+
+
+.about {
+  margin-top: 0;
+  padding: 80px 0 40px 0;
+
+}
+} */
+
 
 /************ Projects Css ************/
 .contact {
@@ -797,3 +901,33 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+
+
+/* Testes */
+/* .project .button-contatohd {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 10px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+}
+.project .button-contatohd{
+  display: inline-flex;
+  color: white;
+  border: 0;
+  margin-right: 10px;
+  padding: 2px 6px ;
+  text-decoration: none;
+  border-radius: 6px;
+
+}
+.project .button-contatohd:hover{
+  background-color: yellow;
+  color: black;
+  transition: 1s;
+}  */
+
+
