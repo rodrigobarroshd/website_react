@@ -3,7 +3,10 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/banner-computer.jpg";
 import projImg2 from "../assets/img/banner-computer.jpg";
 import projImg3 from "../assets/img/banner-computer.jpg";
-import colorSharp2 from "../assets/img/banner-computer.jpg";
+import colorSharp2 from "../assets/img/banner-computer.jpg"; 
+import menino from "../assets/img/menino.jpg"; 
+import plugadas from "../assets/img/plugadas.jpg"; 
+import pensamento from "../assets/img/pensamento.jpg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -68,24 +71,169 @@ export const Projects = () => {
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
                       <Row>
-                        {
-                          projects.map((project, index) => {
-                            return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                                />
-                            )
-                          })
-                        }
+
+                        {/* Coluna para Texto */}
+                        <Col>         
+                          <div className="container-items-left">
+                            <div className="text-right-items-left-text-left">
+                              {/* <h1 className="title-font-text-white">
+                                Atividades Desplugadas
+                              </h1> */}
+                              <h2>Sobre a disciplina</h2>
+                              <p className="leading-relaxed">
+                              O conceito de Pensamento Computacional ganhou relevância nos últimos 
+                              anos e tornou-se conteúdo obrigatório em mais de 50 países.
+                              Mas afinal, no que consiste essa disciplina? 
+                              </p>
+                              <p className="leading-relaxed">
+                              O Pensamento Computacional apresenta fundamentos 
+                              da Ciência da Computação e desenvolve habilidades 
+                              socioemocionais da Educação Infantil ao Ensino Fundamental 2. 
+                              </p>
+                              <p className="leading-relaxed">
+                              No programa, os alunos aplicam tecnologias digitais como programação, 
+                              robótica, eletrônica digital, internet das coisas, inteligência 
+                              artificial e práticas Maker para solucionar problemas interdisciplinares.
+                              </p>
+                              <p className="leading-relaxed">
+                              No programa, os alunos aplicam tecnologias digitais como programação, 
+                              robótica, eletrônica digital, internet das coisas, inteligência 
+                              artificial e práticas Maker para solucionar problemas interdisciplinares.
+                              </p>
+
+                            <div className="flex justify-center">
+                              <a
+                                href="#contact"
+                                className="button-contato"><span>Saiba Mais</span>
+                                
+                              </a>
+                             
+                            </div>
+                          </div>
+                          </div>
+                        </Col>
+
+                        {/* Coluna para Imagem */}
+                        <Col xs={12} md={6} xl={6}>
+                        <div className="personal">
+                            <img src={menino} alt="Image" />
+                          </div>
+                          </Col>
+  
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>Lorem ipsuasssssm dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    <Tab.Pane eventKey="second">
+                    <Row>
+
+                    {/* Coluna para Texto */}
+                    <Col>         
+                      <div className="container-items-left">
+                        <div className="text-right-items-left-text-left">
+                          {/* <h1 className="title-font-text-white">
+                            Atividades Plugadas
+                          </h1> */}
+                          <h2>Sobre a disciplina</h2>
+                          <p className="leading-relaxed">
+                          O conceito de Pensamento Computacional ganhou relevância nos últimos 
+                          anos e tornou-se conteúdo obrigatório em mais de 50 países.
+                          Mas afinal, no que consiste essa disciplina? 
+                          </p>
+                          <p className="leading-relaxed">
+                          O Pensamento Computacional apresenta fundamentos 
+                          da Ciência da Computação e desenvolve habilidades 
+                          socioemocionais da Educação Infantil ao Ensino Fundamental 2. 
+                          </p>
+                          <p className="leading-relaxed">
+                          No programa, os alunos aplicam tecnologias digitais como programação, 
+                          robótica, eletrônica digital, internet das coisas, inteligência 
+                          artificial e práticas Maker para solucionar problemas interdisciplinares.
+                          </p>
+                          <p className="leading-relaxed">
+                          No programa, os alunos aplicam tecnologias digitais como programação, 
+                          robótica, eletrônica digital, internet das coisas, inteligência 
+                          artificial e práticas Maker para solucionar problemas interdisciplinares.
+                          </p>
+
+                        <div className="flex justify-center">
+                          <a
+                            href="#contact"
+                            className="button-contato">
+                            Saiba Mais
+                          </a>
+
+                        </div>
+                      </div>
+                      </div>
+                    </Col>
+
+                    {/* Coluna para Imagem */}
+                    <Col xs={12} md={6} xl={6}>
+                    <div className="personal">
+                        <img src={plugadas} alt="Image" />
+                      </div>
+                      </Col>
+
+                    </Row>
+                                          
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="third">
+                        <Row>
+
+                        {/* Coluna para Texto */}
+                        <Col>         
+                          <div className="container-items-left">
+                            <div className="text-right-items-left-text-left">
+                              {/* <h1 className="title-font-text-white">
+                                Pensamento Computacional
+                              </h1> */}
+                              <h2>Sobre a disciplina</h2>
+                              <p className="leading-relaxed">
+                              O conceito de Pensamento Computacional ganhou relevância nos últimos 
+                              anos e tornou-se conteúdo obrigatório em mais de 50 países.
+                              Mas afinal, no que consiste essa disciplina? 
+                              </p>
+                              <p className="leading-relaxed">
+                              O Pensamento Computacional apresenta fundamentos 
+                              da Ciência da Computação e desenvolve habilidades 
+                              socioemocionais da Educação Infantil ao Ensino Fundamental 2. 
+                              </p>
+                              <p className="leading-relaxed">
+                              No programa, os alunos aplicam tecnologias digitais como programação, 
+                              robótica, eletrônica digital, internet das coisas, inteligência 
+                              artificial e práticas Maker para solucionar problemas interdisciplinares.
+                              </p>
+                              <p className="leading-relaxed">
+                              No programa, os alunos aplicam tecnologias digitais como programação, 
+                              robótica, eletrônica digital, internet das coisas, inteligência 
+                              artificial e práticas Maker para solucionar problemas interdisciplinares.
+                              </p>
+
+                            <div className="flex justify-center">
+                              <a
+                                href="#contact"
+                                className="button-contato">
+                                Saiba Mais
+                              </a>
+
+                            </div>
+                          </div>
+                          </div>
+                        </Col>
+
+                        {/* Coluna para Imagem */}
+                        <Col xs={12} md={6} xl={6}>
+                        <div className="personal">
+                            <img src={pensamento} alt="Image" />
+                          </div>
+                          </Col>
+
+                        </Row>
+                      
                     </Tab.Pane>
+
                   </Tab.Content>
                 </Tab.Container>
               </div>}
