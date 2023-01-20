@@ -8,3 +8,4 @@ Built using:
 - CSS framework: React-bootstrap
 - CSS animations library: Animate.css
 - JavaScript and ReactJS
+- Mongo DB
